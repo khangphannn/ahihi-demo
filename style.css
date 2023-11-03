@@ -1,0 +1,55 @@
+body {
+	background-color: lightpink;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+h1 {
+	color: magenta;
+	font-family: Times New Roman, Times, serif;
+	text-align: center;
+	font-size: 150px;
+	}
+#para1 {
+	color: white;
+	text-align: center;
+	font-family: Helvatica, Arial, sans-serif;
+	font-size: 40px;
+}
+#para2 {
+	color: white;
+	text-align: center;
+	font-family: Helvatica, Arial, sans-serif;
+	font-size: 25px;
+	line-height: 1.6;
+}
+#para3 {
+	color: black;
+	text-align: justify-all;
+	font-family: Helvatica, Arial, sans-serif;
+	font-size: 25px;
+	margin-left: 100px;
+	line-height: 1.6;
+}
+h2 {
+	color: 	#001eff;
+	font-family: Times New Roman, Times, serif;
+	text-align: justify-all;
+	font-size: 100px;
+	margin-left: 50px;
+}
+li {
+	list-style-type: circle;
+	color: black;
+	text-align: justify-all;
+	font-family: Helvatica, Arial, sans-serif;
+	font-size: 25px;
+	margin-left: 120px;
+	line-height: 1.6;
+}
+@media print {
+  footer {page-break-after: always;}
+}
